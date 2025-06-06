@@ -35,3 +35,31 @@ header, footer {
   padding: 1rem;
   text-align: center;
 }
+
+* Basic styling for header and list */
+header {
+  background-color: #333;
+  color: white;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  margin: 0;
+}
+
+header li {
+  margin-right: 1.5rem;
+}
+
+/* Article customization */
+article {
+  background: #fff;
+  color: #222;
+  font-family: Georgia, serif;
+  line-height: 1.6;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
